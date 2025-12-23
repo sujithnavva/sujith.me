@@ -1,15 +1,16 @@
 {
   "files": {
     "main.css": "/sujith.me/static/css/main.0321a42e.css",
-    "main.js": "/sujith.me/static/js/main.c041d96b.js",
+    "main.js": "/sujith.me/static/js/main.4a2fedc8.js",
     "static/js/453.b2ac8375.chunk.js": "/sujith.me/static/js/453.b2ac8375.chunk.js",
+    "static/media/Resume_Sujith.pdf": "/sujith.me/static/media/Resume_Sujith.5a63c0accb1b81d876a7.pdf",
     "index.html": "/sujith.me/index.html",
     "main.0321a42e.css.map": "/sujith.me/static/css/main.0321a42e.css.map",
-    "main.c041d96b.js.map": "/sujith.me/static/js/main.c041d96b.js.map",
+    "main.4a2fedc8.js.map": "/sujith.me/static/js/main.4a2fedc8.js.map",
     "453.b2ac8375.chunk.js.map": "/sujith.me/static/js/453.b2ac8375.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.0321a42e.css",
-    "static/js/main.c041d96b.js"
+    "static/js/main.4a2fedc8.js"
   ]
 }

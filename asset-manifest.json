@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/sujith.me/static/css/main.0321a42e.css",
+    "main.js": "/sujith.me/static/js/main.04092526.js",
+    "static/js/453.b2ac8375.chunk.js": "/sujith.me/static/js/453.b2ac8375.chunk.js",
+    "index.html": "/sujith.me/index.html",
+    "main.0321a42e.css.map": "/sujith.me/static/css/main.0321a42e.css.map",
+    "main.04092526.js.map": "/sujith.me/static/js/main.04092526.js.map",
+    "453.b2ac8375.chunk.js.map": "/sujith.me/static/js/453.b2ac8375.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.0321a42e.css",
+    "static/js/main.04092526.js"
+  ]
+}

@@ -91,7 +91,7 @@ export default function HeroSection({ isDarkMode }) {
         >
           <span className="w-2 h-2 bg-green-500 rounded-full animate-pulse" />
           <span className={`text-sm ${isDarkMode ? 'text-gray-400' : 'text-gray-600'}`}>
-            MSc Cybersecurity @ Nanyang Technological University
+            Cybersecurity Engineer @ NETS Group Singapore
           </span>
         </motion.div>
 

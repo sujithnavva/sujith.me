@@ -1,7 +1,7 @@
 import React from 'react';
 import { motion } from 'framer-motion';
-import { ChevronDown, Shield, Github, Linkedin, Mail, Phone } from 'lucide-react';
-
+import { ChevronDown, Shield, Github, Linkedin, Mail, Phone,FileText } from 'lucide-react';
+import resumeFile from '../assets/Resume_Sujith.pdf';
 export default function HeroSection({ isDarkMode }) {
   const scrollToAbout = () => {
     document.getElementById('about')?.scrollIntoView({ behavior: 'smooth' });
@@ -134,6 +134,15 @@ export default function HeroSection({ isDarkMode }) {
           >
             <Phone className={`w-5 h-5 ${isDarkMode ? 'text-gray-400' : 'text-gray-600'}`} />
           </a>
+          <a
+            href={resumeFile} // Replace with the actual path to your CV in the public folder
+            target="_blank"
+            rel="noopener noreferrer"
+            className={`p-3 rounded-full ${isDarkMode ? 'bg-white/5 border-white/10 hover:bg-white/10 hover:border-white/20' : 'bg-black/5 border-black/10 hover:bg-black/10 hover:border-black/20'} border transition-all duration-300`}
+            aria-label="CV"
+        >
+          <FileText className={`w-5 h-5 ${isDarkMode ? 'text-gray-400' : 'text-gray-600'}`} />
+        </a>
         </motion.div>
       </div>
 

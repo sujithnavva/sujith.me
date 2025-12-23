@@ -1,10 +1,50 @@
-# Getting Started with Create React App
+# Sujith Cybersecurity Portfolio
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+A modern, responsive portfolio website for cybersecurity professionals built with React.
 
-## Available Scripts
+## Project Structure
 
-In the project directory, you can run:
+```
+src/
+├── pages/
+│   └── Home/
+│       ├── Home.jsx
+│       └── Home.css
+├── components/
+│   ├── portfolio/
+│   │   ├── HeroSection.jsx
+│   │   ├── AboutSection.jsx
+│   │   ├── SkillsSection.jsx
+│   │   ├── ExperienceTimeline.jsx
+│   │   ├── ProjectsSection.jsx
+│   │   ├── CertificationsSection.jsx
+│   │   └── ContactSection.jsx
+│   ├── Navigation.jsx
+│   ├── Footer.jsx
+│   ├── ThemeToggle.jsx
+│   ├── ScrollProgress.jsx
+│   └── BackToTop.jsx
+├── App.js
+└── App.css
+```
+
+## Features
+
+- **Responsive Navigation**: Mobile-friendly navigation with hamburger menu
+- **Dark/Light Theme**: Toggle between dark and light themes
+- **Scroll Progress Bar**: Visual indicator of page scroll progress
+- **Back to Top Button**: Smooth scroll to top functionality
+- **Modern Sections**:
+  - Hero Section with introduction
+  - About Section
+  - Skills showcase grid
+  - Experience Timeline
+  - Projects showcase with tech stack tags
+  - Certifications display
+  - Contact section with social links
+  - Footer
+
+## Getting Started
 
 ### `npm start`
 
